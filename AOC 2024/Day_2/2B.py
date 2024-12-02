@@ -10,7 +10,6 @@ for line in data:
     while i < len(curr):
         currValue = curr.pop(i)
         valid = True
-        print(curr)
         change = int(curr[1]) - int(curr[0])
         if abs(change) >= 1 and abs(change) <= 3:
             if change > 0:
